@@ -1,0 +1,41 @@
+body{
+  background-color: black;
+  /* background-image: image(src= */
+}
+
+
+
+header{
+  display: flex;
+  justify-content: center;
+}
+
+nav{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  background-color: pink;
+  height: 40em;
+}
+
+h1, h2, a, p{
+  color: white;
+}
+
+section{
+  background-color: orange;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.planet-details{
+};
+
+#content-wrapper{
+  display:flex;
+  flex-direction: row;
+};
